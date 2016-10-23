@@ -12,7 +12,6 @@ class Tex2img < Formula
   end
 
   test do
-    touch testpath/"test"
     system "#{bin}/tex2img", "--version"
   end
 end
