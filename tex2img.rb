@@ -2,10 +2,10 @@ class Tex2img < Formula
   desc "Compile TeX file to various formats of image"
   homepage "http://island.geocities.jp/loveinequality/"
   if OS.mac?
-    url "http://island.geocities.jp/loveinequality/tex2imgcMac2.1.6.zip"
-    sha256 "1417b64388f8a48e87e417a623d1350e8d8aa7822bec8cf20d14309d7b326ae0"
+    url "http://island.geocities.jp/loveinequality/tex2imgcMac2.1.7.zip"
+    sha256 "712845db56561d01c4570a76db9bc515909b1e908aa6ab5a91ceecab77ff6de5"
   end
-  version "2.1.6"
+  version "2.1.7"
 
   def install
     bin.install "tex2img"
