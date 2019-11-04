@@ -1,6 +1,6 @@
 # homebrew-tex2img
 
-Homebrew Formula for [TeX2img](http://island.geocities.jp/loveinequality/).
+Homebrew Formula for [TeX2img](https://tex2img.tech/).
 
 You can install TeX2img with following commands:
 
