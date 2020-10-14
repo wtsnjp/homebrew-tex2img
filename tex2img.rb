@@ -6,7 +6,9 @@ class Tex2img < Formula
   url "https://tex2img.tech/latest/tex2imgcMac2.4.3.zip"
   sha256 "dc33bf3f63cff5f743aafb2915a3c87f8058485773e997dd34f201e3f9f9920d"
 
-  #depends_on :macos => :mavericks
+  # Note: TeX2img supports 10.9+ but Homebrew supports 10.10+ for depends_on.
+  #       Thus, the following should be commented:
+  #depends_on macos: ">= :mavericks"
 
   def install
     # abort if not macOS
