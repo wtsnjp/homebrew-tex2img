@@ -2,9 +2,9 @@ class Tex2img < Formula
   desc "Compile TeX file to various formats of image"
   homepage "https://tex2img.tech/"
 
-  version "2.4.2"
-  url "https://tex2img.tech/latest/tex2imgcMac2.4.2.zip"
-  sha256 "163e16900f70aa6aee0106f77ca1572ad086b489c11fe9fbdcf4c91daf74ba1a"
+  version "2.4.3"
+  url "https://tex2img.tech/latest/tex2imgcMac2.4.3.zip"
+  sha256 "dc33bf3f63cff5f743aafb2915a3c87f8058485773e997dd34f201e3f9f9920d"
 
   def install
     # abort if not macOS
